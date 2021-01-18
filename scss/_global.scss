@@ -14,6 +14,7 @@ h1,
 h2,
 h3 {
   font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
   text-transform: uppercase;
   line-height: 1;
 }
@@ -22,11 +23,7 @@ h1 {
   font-size: 4.5rem;
 
   @include mobile-l {
-    font-size: 2.6rem;
-  }
-
-  @include mobile {
-    font-size: 2.3rem;
+    font-size: 2.5rem;
   }
 }
 

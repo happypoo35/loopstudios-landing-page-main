@@ -76,7 +76,7 @@ $images-m: (
       background: linear-gradient(
           to top,
           rgba($Black, 0.5),
-          rgba($Black, 0) 50%
+          rgba($Black, 0) 100%
         ),
         no-repeat url(map-get($images-m, img#{$i}));
     }

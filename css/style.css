@@ -46,57 +46,57 @@
 
 @media screen and (max-width: 910px) {
   .card:nth-child(1) {
-    background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), color-stop(50%, rgba(0, 0, 0, 0))), no-repeat url("../images/mobile/image-deep-earth.jpg");
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) 50%), no-repeat url("../images/mobile/image-deep-earth.jpg");
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), no-repeat url("../images/mobile/image-deep-earth.jpg");
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) 100%), no-repeat url("../images/mobile/image-deep-earth.jpg");
   }
 }
 
 @media screen and (max-width: 910px) {
   .card:nth-child(2) {
-    background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), color-stop(50%, rgba(0, 0, 0, 0))), no-repeat url("../images/mobile/image-night-arcade.jpg");
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) 50%), no-repeat url("../images/mobile/image-night-arcade.jpg");
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), no-repeat url("../images/mobile/image-night-arcade.jpg");
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) 100%), no-repeat url("../images/mobile/image-night-arcade.jpg");
   }
 }
 
 @media screen and (max-width: 910px) {
   .card:nth-child(3) {
-    background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), color-stop(50%, rgba(0, 0, 0, 0))), no-repeat url("../images/mobile/image-soccer-team.jpg");
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) 50%), no-repeat url("../images/mobile/image-soccer-team.jpg");
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), no-repeat url("../images/mobile/image-soccer-team.jpg");
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) 100%), no-repeat url("../images/mobile/image-soccer-team.jpg");
   }
 }
 
 @media screen and (max-width: 910px) {
   .card:nth-child(4) {
-    background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), color-stop(50%, rgba(0, 0, 0, 0))), no-repeat url("../images/mobile/image-grid.jpg");
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) 50%), no-repeat url("../images/mobile/image-grid.jpg");
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), no-repeat url("../images/mobile/image-grid.jpg");
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) 100%), no-repeat url("../images/mobile/image-grid.jpg");
   }
 }
 
 @media screen and (max-width: 910px) {
   .card:nth-child(5) {
-    background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), color-stop(50%, rgba(0, 0, 0, 0))), no-repeat url("../images/mobile/image-from-above.jpg");
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) 50%), no-repeat url("../images/mobile/image-from-above.jpg");
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), no-repeat url("../images/mobile/image-from-above.jpg");
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) 100%), no-repeat url("../images/mobile/image-from-above.jpg");
   }
 }
 
 @media screen and (max-width: 910px) {
   .card:nth-child(6) {
-    background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), color-stop(50%, rgba(0, 0, 0, 0))), no-repeat url("../images/mobile/image-pocket-borealis.jpg");
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) 50%), no-repeat url("../images/mobile/image-pocket-borealis.jpg");
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), no-repeat url("../images/mobile/image-pocket-borealis.jpg");
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) 100%), no-repeat url("../images/mobile/image-pocket-borealis.jpg");
   }
 }
 
 @media screen and (max-width: 910px) {
   .card:nth-child(7) {
-    background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), color-stop(50%, rgba(0, 0, 0, 0))), no-repeat url("../images/mobile/image-curiosity.jpg");
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) 50%), no-repeat url("../images/mobile/image-curiosity.jpg");
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), no-repeat url("../images/mobile/image-curiosity.jpg");
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) 100%), no-repeat url("../images/mobile/image-curiosity.jpg");
   }
 }
 
 @media screen and (max-width: 910px) {
   .card:nth-child(8) {
-    background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), color-stop(50%, rgba(0, 0, 0, 0))), no-repeat url("../images/mobile/image-fisheye.jpg");
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) 50%), no-repeat url("../images/mobile/image-fisheye.jpg");
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), no-repeat url("../images/mobile/image-fisheye.jpg");
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) 100%), no-repeat url("../images/mobile/image-fisheye.jpg");
   }
 }
 
@@ -117,6 +117,7 @@ h1,
 h2,
 h3 {
   font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
   text-transform: uppercase;
   line-height: 1;
 }
@@ -127,13 +128,7 @@ h1 {
 
 @media screen and (max-width: 910px) {
   h1 {
-    font-size: 2.6rem;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  h1 {
-    font-size: 2.3rem;
+    font-size: 2.5rem;
   }
 }
 
@@ -216,7 +211,7 @@ header {
   background-size: cover;
   background-blend-mode: multiply;
   width: 100%;
-  padding: 4rem 10rem;
+  padding: 4rem 10rem 3rem;
   margin-bottom: 10rem;
 }
 
@@ -243,9 +238,9 @@ header nav {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-bottom: 8rem;
 }
 
@@ -338,6 +333,7 @@ header nav .burger-btn::after {
         -ms-flex-direction: column;
             flex-direction: column;
     font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
     font-size: 2rem;
     text-transform: uppercase;
     visibility: hidden;
@@ -436,7 +432,7 @@ header .title h1 {
 
 main {
   padding: 0 10rem;
-  margin-bottom: 10rem;
+  margin-bottom: 12rem;
 }
 
 @media screen and (max-width: 910px) {
@@ -562,18 +558,18 @@ main {
   border: none;
   outline: none;
   background: transparent;
-  border: 2px solid black;
+  border: 1px solid black;
   font-family: "Alata", sans-serif;
   font-size: 0.9rem;
   letter-spacing: 0.34rem;
   text-transform: uppercase;
   color: black;
-  padding: 0.9rem 2rem;
+  padding: 0.8rem 2rem;
 }
 
 .cards button:hover {
   background: black;
-  border: 2px solid transparent;
+  border: 1px solid transparent;
   color: white;
 }
 
