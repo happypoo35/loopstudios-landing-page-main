@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap");
+
+$White: hsl(0, 0%, 100%);
+$Black: hsl(0, 0%, 0%);
+$Dark-Gray: hsl(0, 0%, 55%);
+$Very-Dark-Gray: hsl(0, 0%, 41%);
+
+%transition {
+  transition: 0.3s ease;
+}
+
+$desktop: 1400px;
+$laptop: 1080px;
+$tablet: 1000px;
+$mobile-l: 910px;
+$mobile: 600px;
+
+@mixin desktop {
+  @media screen and(max-width: $desktop) {
+    @content;
+  }
+}
+@mixin laptop {
+  @media screen and(max-width: $laptop) {
+    @content;
+  }
+}
+@mixin tablet {
+  @media screen and(max-width: $tablet) {
+    @content;
+  }
+}
+@mixin mobile-l {
+  @media screen and(max-width: $mobile-l) {
+    @content;
+  }
+}
+@mixin mobile {
+  @media screen and(max-width: $mobile) {
+    @content;
+  }
+}
+
+$images: (
+  img1: "../images/desktop/image-deep-earth.jpg",
+  img2: "../images/desktop/image-night-arcade.jpg",
+  img3: "../images/desktop/image-soccer-team.jpg",
+  img4: "../images/desktop/image-grid.jpg",
+  img5: "../images/desktop/image-from-above.jpg",
+  img6: "../images/desktop/image-pocket-borealis.jpg",
+  img7: "../images/desktop/image-curiosity.jpg",
+  img8: "../images/desktop/image-fisheye.jpg",
+);
+
+@for $i from 1 through length($images) {
+  .card:nth-child(#{$i}) {
+    background: linear-gradient(to top, rgba($Black, 0.5), rgba($Black, 0) 50%),
+      no-repeat url(map-get($images, img#{$i}));
+  }
+}
+
+$images-m: (
+  img1: "../images/mobile/image-deep-earth.jpg",
+  img2: "../images/mobile/image-night-arcade.jpg",
+  img3: "../images/mobile/image-soccer-team.jpg",
+  img4: "../images/mobile/image-grid.jpg",
+  img5: "../images/mobile/image-from-above.jpg",
+  img6: "../images/mobile/image-pocket-borealis.jpg",
+  img7: "../images/mobile/image-curiosity.jpg",
+  img8: "../images/mobile/image-fisheye.jpg",
+);
+
+@for $i from 1 through length($images-m) {
+  @include mobile-l {
+    .card:nth-child(#{$i}) {
+      background: linear-gradient(
+          to top,
+          rgba($Black, 0.5),
+          rgba($Black, 0) 50%
+        ),
+        no-repeat url(map-get($images-m, img#{$i}));
+    }
+  }
+}
